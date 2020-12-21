@@ -1,0 +1,4 @@
+name: Generate Security Report
+uses: peter-murray/github-security-report-action@v1
+with:
+  token: ${{ secrets.SECURITY_TOKEN }}
